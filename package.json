@@ -1,0 +1,11 @@
+{
+  "name": "zenny-ui-monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "wc:build": "yarn workspace zenny-ui build",
+    "react:build": "yarn workspace zenny-ui-react build"
+  },
+  "private": true
+}
